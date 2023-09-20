@@ -9,7 +9,9 @@
 
 	
 		<style>
-    .required input:after { content:"*"; }
+    .required:before {
+            content: "*";
+	}
 </style>
 	
 </head>
@@ -49,7 +51,7 @@
 
 
 			<label for="dob">Date of Purchase</label>
-			<input type="date" id="dop"  required>
+			<input type="date" id="dob"  required>
 			<br><br>
 
 			<label for="password">Password</label>
